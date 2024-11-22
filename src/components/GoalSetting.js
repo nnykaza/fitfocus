@@ -7,7 +7,7 @@ const GoalSetting = () => {
 
   const handleGoalSet = () => {
     console.log(`Goal set: ${goal}`);
-    // You can save the goal to state or a backend service here
+    // save the goal to backend service 
   };
 
   return (

@@ -20,7 +20,7 @@ const SignUpPage = () => {
 
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      navigate('/dashboard');
+      navigate("/dashboard");
     } catch (err) {
       setError('Something went wrong. Please try again.');
     }

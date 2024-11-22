@@ -14,7 +14,7 @@ const LoginPage = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate('/dashboard');
+      navigate("/dashboard");
     } catch (err) {
       setError('Invalid credentials, please try again.');
     }
